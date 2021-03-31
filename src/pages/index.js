@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "gatsby";
+import Layout from "../components/Layout";
 
 export default function Home() {
   return (
-    <div>
+    <Layout>
       Hello world!
       <Link to="/company/history">Contact</Link>
-    </div>
+    </Layout>
   );
 }
