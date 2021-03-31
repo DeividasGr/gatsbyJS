@@ -1,7 +1,8 @@
 import React from "react";
+import Layout from "../components/Layout";
 
 function Error() {
-  return <div>Error Page</div>;
+  return <Layout>Error Page</Layout>;
 }
 
 export default Error;

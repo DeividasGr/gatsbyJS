@@ -5,8 +5,7 @@ import Layout from "../components/Layout";
 export default function Home() {
   return (
     <Layout>
-      Hello world!
-      <Link to="/company/history">Contact</Link>
+      <h1>home page</h1>
     </Layout>
   );
 }
